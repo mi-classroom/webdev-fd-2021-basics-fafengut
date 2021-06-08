@@ -62,7 +62,7 @@ table{
 }
 
 tbody tr{
-    border-top: solid 1px var(--light);
+    border-top: solid 1px var(--lighter);
 }
 
 td, th{
@@ -76,10 +76,16 @@ thead td, thead th{
 }
 
 blockquote{
-    border-top: solid 1px var(--light);
-    border-bottom: solid 1px var(--light);
+    border-top: solid 1px var(--lighter);
+    border-bottom: solid 1px var(--lighter);
     font-family: var(--ff-serif);
     padding-top: var(--m);
     margin-top: var(--xl);
     margin-bottom: var(--xl);
+}
+
+span{
+    text-transform: uppercase;
+    font-size: var(--s);
+    color: var(--light);
 }
