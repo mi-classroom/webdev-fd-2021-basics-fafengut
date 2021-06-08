@@ -1,0 +1,81 @@
+/* Intro
+#################################################################*/
+.article-intro{
+    background-color: var(--lighter);
+    padding: var(--xl) var(--l);
+    margin-bottom: var(--xl);
+    margin-top: var(--xxl);
+}
+
+/* Intro
+#################################################################*/
+.main-navigation{
+    padding: 0 var(--m);
+    background-color: var(--color-accent);
+    position: sticky;
+    top: 0;
+}
+
+.main-navigation li{
+    display: inline-block;
+    padding: var(--xxs);
+    transition: background-color var(--tr-fast);
+}
+
+.main-navigation li:hover{
+    background-color: var(--darker);
+
+}
+
+.main-navigation li:hover a{
+    color: var(--lighter);
+}
+
+.main-navigation li a{
+    color: var(--darker);
+    text-decoration: none;
+}
+
+/* Kommentar
+#################################################################*/
+#comment{
+    padding: var(--m);
+    background-color: var(--lighter);
+}
+
+#comment form label{
+    display: block;
+}
+
+#comment form input[type=text]{
+    display: block;
+    width: 90%;
+    padding: var(--xxs);
+}
+
+#comment .headline{
+    font-size: var(--m);
+}
+
+blockquote p{
+    font-style: italic;
+}
+
+blockquote p:before,
+blockquote p:after{
+    content: "»";
+    display: inline-block;
+    margin-right: var(--xxs);
+    color: var(--color-accent);
+}
+
+blockquote p:after{
+    content: "«";
+    margin-left: var(--xxs);
+}
+
+blockquote footer:before{
+    content: "-";
+    display: inline-block;
+    margin-right: var(--xxs);
+}
