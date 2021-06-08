@@ -57,8 +57,12 @@
     font-size: var(--m);
 }
 
+/* Zitat
+#################################################################*/
 blockquote p{
     font-style: italic;
+    color: var(--color-accent);
+    font-weight: var(--fw-bold);
 }
 
 blockquote p:before,
@@ -78,4 +82,9 @@ blockquote footer:before{
     content: "-";
     display: inline-block;
     margin-right: var(--xxs);
+}
+
+blockquote footer{
+    color: var(--light);
+    font-size: var(--s);
 }
