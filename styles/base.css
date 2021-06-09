@@ -1,0 +1,91 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: var(--ff-normal);
+    font-weight: var(--fw-normal);
+    font-size: var(--bfs);
+    line-height: var(--lh-normal);
+    color: var(--color-text);
+}
+
+main{
+    padding: var(--m);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+    color: var(--color-headline);
+}
+
+h1{
+    font-size: var(--xl);
+    padding-top: var(--xl);
+    padding-bottom: var(--xl);
+    line-height: var(--lh-tight);
+}
+
+h2{
+    font-size: var(--l);
+    font-weight: var(--fw-medium);
+    margin-bottom: var(--m);
+}
+
+h3{
+    font-size: var(--m);
+    font-weight: var(--fw-bold);
+    margin-bottom: var(--m);
+}
+
+nav, main, footer, article{
+    margin-bottom: var(--l);
+    max-width: 54rem;
+}
+
+img{
+    width: 100%;
+}
+
+dt{
+    color: var(--color-headline);
+    font-weight: var(--fw-bold);
+    margin-bottom: var(--xxs);
+}
+
+figure, p, blockquote, dd, table{
+    margin-bottom: var(--m);
+}
+
+table{
+    width: 100%;
+}
+
+tbody tr{
+    border-top: solid 1px var(--lighter);
+}
+
+td, th{
+    padding: var(--xs);
+    text-align: left;
+}
+
+thead td, thead th{
+    font-weight: var(--fw-bold);
+    color: var(--color-headline);
+}
+
+blockquote{
+    border-top: solid 1px var(--lighter);
+    border-bottom: solid 1px var(--lighter);
+    font-family: var(--ff-serif);
+    padding-top: var(--m);
+    margin-top: var(--xl);
+    margin-bottom: var(--xl);
+}
+
+span{
+    text-transform: uppercase;
+    font-size: var(--s);
+    color: var(--light);
+}
